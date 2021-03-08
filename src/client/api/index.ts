@@ -4,7 +4,7 @@ import { postRefreshToken } from './auth';
 const MIN_DIFF_TOKEN_TIME = 60;
 
 const apiConfig = {
-  baseURL: process.env.API_HOST,
+  baseURL: `${process.env.API_HOST}/`,
   timeout: 30000,
 };
 

@@ -5,7 +5,7 @@ export const postRegistration = async (
   password: string,
   avatar: string,
 ) => {
-  const { data } = await apiClient.post('/auth/create', {
+  const { data } = await apiClient.post('/create', {
     name,
     password,
     avatar,
